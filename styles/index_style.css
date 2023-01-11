@@ -5,11 +5,11 @@ padding-left: 50px;
 padding-top: 50px; 
 }
 
-#logo_bg img{
-  height: 400px;
-  width: fit-content;
+#logo_bg ,img{
+  height: 250px;
+  width : 250px;
   position: absolute;
-  
+
 }
 body{
   background-color: antiquewhite;
@@ -22,7 +22,7 @@ body{
   z-index: 0;
   position : relative;
   left: 500px;
-  top: 10px;
+  top: 15px;
 
 }
 #info_box{
@@ -55,4 +55,9 @@ bottom: 400px;
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
   padding: 10px;
+}
+
+#info_section{
+  position: relative;
+  top: 200px;
 }
