@@ -1,63 +1,98 @@
 .brand{
-color: palegreen;  font-family: 'dancing script', cursive;
-font-size: 40px;
-padding-left: 50px;
-padding-top: 50px; 
-}
-
-#logo_bg ,img{
-  height: 250px;
-  width : 250px;
-  position: absolute;
-
-}
-body{
-  background-color: antiquewhite;
-
-
-}
-#mindfullness_img{
-  height: 500px;
-  width: 800px;
-  z-index: 0;
-  position : relative;
-  left: 500px;
-  top: 15px;
-
-}
-#info_box{
-  height: fit-content;
-  text-overflow: clip;
-  width: 500px;
-  margin-left: 50px;
-  position: relative;
-  bottom: 200px;
-  border-radius: 100px;
-  background: rgba( 255, 255, 255, 0.3 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 20px );
--webkit-backdrop-filter: blur( 20px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-position: relative;
-left: 270px;
-bottom: 400px;
-
-
-}
-
-.info_box ,h2 {
-  padding: 10px;
-  font-family: 'Dancing Script', cursive;
+  color: palegreen;  font-family: 'dancing script', cursive;
   font-size: 40px;
-}
-.info_box ,p{
-  font-family: 'Dancing Script', cursive;
-  font-size: 20px;
-  padding: 10px;
-}
-
-#info_section{
+  padding-left: 50px;
+  padding-top: 50px; 
+  }
+  #logo_bg ,img{
+    
+    height: 250px;
+    width: 250px;
+    margin-top: -25px;
+    /* position: absolute;*/
+  
+  }
+  body{
+    background-color: antiquewhite;
+  
+  }
+  .nav{
+    text-align: right;
+    margin-left: 157vh;
+    margin-top: -19vh;
+  }
+  #mindfullness_img{
+    height: 500px;
+    width: 800px;
+    z-index: 0;
+    position : relative;
+    left: 500px;
+    top: 15px;
+  
+  }
+  #info_box{
+    height: fit-content;
+    text-overflow: clip;
+    width: 500px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 200px;
+    border-radius: 100px;
+    background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   position: relative;
-  top: 200px;
-}
+  left: 270px;
+  bottom: 400px;
+  }
+  .info_box ,h2 {
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+  }
+  .info_box ,p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding: 10px;
+  }
+  #info_section{
+    position: relative;
+    top: 100px;
+  }
+  .button{
+    margin-bottom: -37px;
+    cursor: pointer;
+    background: transparent;
+  }
+  button:hover {
+    background-color: antiquewhite;
+  }
+  button:active {
+    background-color: antiquewhite;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(83, 83, 83);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    animation: fadeInOut 5s linear infinite;
+  }
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
