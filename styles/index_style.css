@@ -100,13 +100,12 @@
     left: 300px;
     
   }
-
   .button , button {
     width: 400px;
     height: fit-content;
     border-radius: 20px;
     
-    color: rgb(238, 232, 170);
+    color: rgb(32, 225, 167);
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
     border: none;
