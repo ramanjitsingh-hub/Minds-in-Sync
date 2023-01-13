@@ -1,9 +1,4 @@
-.brand{
-  color: palegreen;  font-family: 'dancing script', cursive;
-  font-size: 40px;
-  padding-left: 50px;
-  padding-top: 50px; 
-  }
+
   #logo_bg ,img{
     
     height: 250px;
@@ -13,13 +8,47 @@
   
   }
   body{
-    background-color: antiquewhite;
+    background-color: paleturquoise;
   
   }
+  li{
+    display: inline-block;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: auto;
+    
+  }
   .nav{
-    text-align: right;
-    margin-left: 157vh;
-    margin-top: -19vh;
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  height: fit-content;
+  width: 400px;
+  list-style-type: none;
+  
+  text-align: center;
+  display: inline;
+  margin: 10px;
+  color: solid white; 
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 20px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );  
+
+}
+
+  .nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
+    color: palevioletred;
+    font-size: 30px;
   }
   #mindfullness_img{
     height: 500px;
@@ -60,10 +89,10 @@
   }
   #info_section{
     position: relative;
-    top: 100px;
+    bottom: 90px;
   }
   .button{
-    margin-bottom: -38px;
+    margin-bottom: -37px;
     cursor: pointer;
     background: transparent;
   }
@@ -94,5 +123,14 @@
     100% {
       opacity: 0;
     }
+  }
+
+  #info_section_hr{
+  position: relative;
+  bottom: 100px;
+  left: 50%;
+  border-top: 5px dotted black;
+  width: 100px;
+  
   }
   
