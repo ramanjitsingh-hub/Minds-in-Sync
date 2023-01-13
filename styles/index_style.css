@@ -95,6 +95,26 @@
     margin-bottom: -37px;
     cursor: pointer;
     background: transparent;
+    position: relative;
+    top: 220px;
+    left: 300px;
+    
+  }
+
+  .button , button {
+    width: 400px;
+    height: fit-content;
+    border-radius: 20px;
+    
+    color: rgb(238, 232, 170);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    border: none;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+
   }
   button:hover {
     background-color: antiquewhite;
@@ -112,7 +132,8 @@
     padding: 10px;
     text-align: center;
     animation: fadeInOut 5s linear infinite;
-  }
+    visibility: hidden;
+    }
   @keyframes fadeInOut {
     0% {
       opacity: 0;
@@ -134,3 +155,83 @@
   
   }
   
+  #free_box{
+    height: fit-content;
+    text-overflow: clip;
+    width: 500px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 400px;
+    left: 300px;
+    border-radius: 100px;
+    background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  }
+
+  #free_image{
+    height:fit-content;
+    width: fit-content;
+    z-index: 0;
+    position : relative;
+    left: 900px;
+    top: 15px;
+  
+  }
+
+  #free_box ,h2 {
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+  }
+  #free_box ,p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding: 10px;
+  }
+  #free_info_section
+  {
+    position: relative;
+    bottom: 90px;
+  }
+
+  #ai_image{
+    height:500px;
+    width: fit-content;
+    z-index: 0;
+    position : relative;
+    left: 610px;
+    top: 15px;
+    overflow: hidden;
+  
+  }
+  #vine1{
+    position: absolute;
+    left: 500px;
+    bottom: 20px;
+    width: 500px; 
+    height: 250px;
+  }
+  #vine2{
+    position: absolute; 
+    width: fit-content;
+    height: 550px;
+    right: 900px;
+    top: 700px;
+
+  
+  }
+
+  #boy1{
+    position: absolute;
+    bottom:100px;
+    right: 100px;
+    transform: rotate('-180deg');
+  }
+  #boy3{
+    position: absolute;
+    top: 1000px;
+    right: 1200px;
+  }
