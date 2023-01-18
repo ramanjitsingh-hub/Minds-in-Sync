@@ -106,18 +106,18 @@
     height: fit-content;
     border-radius: 20px;
     
-    color: rgb(238, 232, 170);
+    color: yellow;
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
     border: none;
-    background: rgba( 255, 255, 255, 0.3 );
+    background: pink;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
 
   }
   button:hover {
-    background-color: antiquewhite;
+    background-color: grey;
   }
   button:active {
     background-color: antiquewhite;
