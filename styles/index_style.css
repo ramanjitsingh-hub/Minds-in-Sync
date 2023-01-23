@@ -100,12 +100,10 @@
     left: 300px;
     
   }
-
   .button , button {
     width: 400px;
     height: fit-content;
     border-radius: 20px;
-    
     color: yellow;
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
